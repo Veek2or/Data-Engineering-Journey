@@ -1,3 +1,9 @@
+'''
+1.3 Word frequency. Download any public-domain book as a .txt file from Project Gutenberg. 
+Print the 20 most common words, ignoring case, punctuation and a stopword list you write yourself. 
+Solve it first with a plain dict, then with collections.Counter. Done when: both versions print identical results.
+'''
+
 from collections import Counter
 
 with open('TheOdyssey.txt', encoding='UTF-8') as book:
